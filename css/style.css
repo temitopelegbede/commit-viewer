@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #eff2f6;
+}
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  font-size: 28px;
+  color: #18214d;
+  cursor: pointer;
+}
+.nav-list {
+  display: flex;
+  gap: 64px;
+}
+.nav-item {
+  list-style: none;
+}
+ul > li > a {
+  color: #18214d;
+  font-size: 28px;
+  text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;
+}
+.discover {
+  /* text-align: center;
+  margin: 0 auto;
+  padding: 2rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+h1 {
+  font-weight: 600;
+  font-size: 72px;
+  color: #18214d;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+p {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #3e4462;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 1rem;
+}
+@media (max-width: 500px) {
+  .header-container {
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 1rem;
+  }
+}
+
+.search-container {
+  margin-top: 3rem;
+  text-align: center;
+  /* margin: 0 auto; */
+}
+.input-containter {
+  padding: 1rem;
+  background: #dfe4ea;
+  border-radius: 8px;
+}
+.search-input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 694px;
+  height: 58px;
+  font-size:20px ;
+  color: #B1B5C5;
+}
+.fa-search{
+  margin-right: .5rem;
+}
+.commit-btn {
+  width: 210;
+  height: 50px;
+  background: #f3663f;
+  border-radius: 8px;
+  margin-left: 1rem;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  /* text-align: center; */
+}
+.icon{
+  font-size: .8rem;
+}
