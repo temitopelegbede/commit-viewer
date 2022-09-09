@@ -124,30 +124,60 @@ p {
   font-size: .8rem;
 }
 
-#pick {
-  font-weight: 400;
+.pick {
+  color: black;
+  font-weight: 400px;
   font-size: 20px;
   text-align: center;
-  color: #3e4462;
-  /* width: 100%; */
-  max-width: 400px;
-  margin-top: 1rem
+  padding: 2px; 
+  margin: 5px;
 }
 
 .footer {
   text-align: center;
-}
+  }
 
 .footer-btn {
-  width: 210;
+  width: 200px;
   height: 40px;
-  background: rgb(23, 23, 43);
+  background: darkblue;
   border-radius: 8px;
-  margin-left: 1rem;
-  color: #ffffff;
+  /* color: #ffffff; */
   border: none;
   cursor: pointer;
-  padding: 1rem;
-  font-size: 1rem;
+  margin: 3px;
+  font-size: 15px;
   text-align: center;
 }
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.next-btn {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  padding: 2rem;
+  width: 40px;
+  height: 40px;
+  background: black;
+  border-radius: 20px;
+  /* color: #ffffff; */
+  border: none;
+  cursor: pointer;
+  margin: 3px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.fa-chevron-right {
+  margin-right: .5rem;
+  margin: 2rem;
+  color: red;
+}
+
+.footer-next {
+  text-align: center;
+  }
