@@ -70,22 +70,57 @@ h1 {
     /* margin-top: 4rem; */
 }
 
-.nav-list {
+.table-sec {
+    /* margin-left: 20px; */
+    /* text-align: center;    */
+    /* align-items: center; */
+    /* justify-items: center; */
+    /* justify-content: center; */
+}
+
+.table-div {
+    /* text-align: center;    */
+    /* align-items: center; */
+    /* justify-items: center; */
+    /* justify-content: center; */
+}
+
+.table-body {
+    margin-left: 100px;
+    /* text-align: center;    */
+    /* align-items: center; */
+    /* justify-items: center; */
+    /* justify-content: center; */
+}
+
+table {
+    width: 60%;
+}
+
+td,
+th {
+    /* border: 1px solid gray; */
+    padding: 8px;
+    text-align: center;
+}
+
+.fa-circle {
+    margin-right: 1rem;
+    color: silver;
+    font-size: 70px;
+}
+
+/* .discover {
+    text-align: center;
+    padding: 2rem;
     display: flex;
-    gap: 64px;
-}
-
-.nav-item {
-    list-style: none;
-}
-
-ul>li>a {
-    color: #18214d;
-    font-size: 28px;
-    text-decoration: none;
-    font-weight: 400;
-    cursor: pointer;
-}
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    margin: 20px
+} */
 
 p {
     font-weight: 400;
@@ -106,7 +141,6 @@ p {
         margin-bottom: 1rem;
     }
 }
-
 
 .commit-btn {
     width: 210;
@@ -158,27 +192,39 @@ a {
 }
 
 .next-btn {
-    display: flex;
+    /* display: flex; */
     /* justify-content: space-around; */
     align-items: center;
-    padding: 2rem;
-    width: 40px;
+    /* padding: 2rem; */
+    width: 80px;
     height: 40px;
     background: black;
-    border-radius: 20px;
+    border-radius: 60px;
     /* color: #ffffff; */
     border: none;
-    cursor: pointer;
-    margin: 3px;
+    /* cursor: pointer; */
+    /* margin: 3px; */
     font-size: 15px;
-    text-align: center;
+    /* text-align: center; */
 }
 
-/* .fa-solid > fa-chevron-right {
-    margin-right: .5rem;
-    margin: 2rem;
+.fa-chevron-right {
+    margin-left: 1rem;
+    /* margin: 10px; */
     color: red;
-  } */
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fa-chevron-left {
+    margin-right: 1rem;
+    color: red;
+    font-size: 20px;
+}
+
+.footer-next {
+    text-align: center;
+}
 
 .footer-next {
     text-align: center;
