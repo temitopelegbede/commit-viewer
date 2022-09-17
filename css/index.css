@@ -16,9 +16,8 @@ body {
 }
 
 .logo {
-  font-size: 28px;
+  font-size: 35px;
   font-weight: 700;
-  font-size: 28px;
   color: #18214d;
   cursor: pointer;
 }
@@ -30,6 +29,7 @@ body {
 
 .nav-item {
   list-style: none;
+  font-size: 30px;
 }
 
 ul>li>a {
